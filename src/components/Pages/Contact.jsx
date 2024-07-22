@@ -50,7 +50,7 @@ function AltContact() {
       <span>info@fms.com</span> <br />
       <br />
       <span style={{ fontWeight: "bold" }}>Phone:</span>{" "}
-      <span>+254723900990</span>
+      <span>+254720964498 </span>
       <div className="socl">
         <h1>
           <a href="https://" target="_blank" rel="noopener noreferrer">

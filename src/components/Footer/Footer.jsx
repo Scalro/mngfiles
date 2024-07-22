@@ -10,10 +10,10 @@ import {
 function Footer() {
   return (
     <div className="foot">
-      <h3 className="log">FMS</h3>
+      <h3 className="log">CHEMWOTEI</h3>
       <span className="tact">
         <h5>
-          <MdLocalPhone /> +254723900990
+          <MdLocalPhone /> +254720964498
         </h5>
         <h5>
           <MdMail /> info@fms.com

@@ -6,7 +6,7 @@ function Nav() {
     <div className="nav-cont">
       <nav>
         <h3 className="logo">
-          <a href="/">FMS</a>
+          <a href="/">CHEMWOTEI</a>
         </h3>
         <ul>
           <li>
@@ -30,7 +30,7 @@ function Nav() {
         </ul>
         <div className="cnt">
           <h5>
-            <MdLocalPhone /> +254723900990
+            <MdLocalPhone /> +254720964498
           </h5>
           <h5>
             <MdMail /> info@fms.com
