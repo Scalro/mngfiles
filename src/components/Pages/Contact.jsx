@@ -16,12 +16,11 @@ function Contact() {
         marginRight: "80px",
       }}
     >
-      <div style={{ backgroundColor: "blue", height: "10vh" }} className="">
+      <div style={{ backgroundColor: "blue", height: "7vh" }} className="">
         {" "}
         <h1
           style={{
             textAlign: "center",
-            paddingTop: "10px",
             color: "white",
           }}
         >
