@@ -1,7 +1,11 @@
-import React from "react";
+import "./Content.css";
 
 function Content() {
-  return <div></div>;
+  return (
+    <div>
+      <h1>Content Management</h1>
+    </div>
+  );
 }
 
 export default Content;

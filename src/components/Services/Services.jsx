@@ -26,7 +26,7 @@ function Card1() {
         workflows and reduces the risk of data loss.
       </p>
       <div className="button">
-        <a href="!#">Explore More..</a>
+        <a href="/filem">Explore More..</a>
       </div>
     </div>
   );
@@ -45,7 +45,7 @@ function Card2() {
         workflows and reduces the risk of data loss.
       </p>
       <div className="button">
-        <a href="!#">Explore More..</a>
+        <a href="/cloud">Explore More..</a>
       </div>
     </div>
   );
@@ -64,7 +64,7 @@ function Card3() {
         workflows and reduces the risk of data loss.
       </p>
       <div className="button">
-        <a href="!#">Explore More..</a>
+        <a href="/content">Explore More..</a>
       </div>
     </div>
   );
@@ -83,7 +83,7 @@ function Card4() {
         workflows and reduces the risk of data loss.
       </p>
       <div className="button">
-        <a href="!#">Explore More..</a>
+        <a href="/advisory">Explore More..</a>
       </div>
     </div>
   );

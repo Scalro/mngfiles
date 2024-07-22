@@ -1,7 +1,11 @@
-import React from "react";
+import "./Filem.css";
 
 function Filem() {
-  return <div></div>;
+  return (
+    <div>
+      <h1>File Management</h1>
+    </div>
+  );
 }
 
 export default Filem;

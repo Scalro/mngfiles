@@ -5,16 +5,18 @@ function Nav() {
   return (
     <div className="nav-cont">
       <nav>
-        <h3 className="logo">FMS</h3>
+        <h3 className="logo">
+          <a href="/">FMS</a>
+        </h3>
         <ul>
           <li>
-            <a href="!#">About</a>
+            <a href="/about">About</a>
           </li>
           <li>
-            <a href="!#">Services</a>
+            <a href="/services">Services</a>
           </li>
           <li>
-            <a href="#!">Contact</a>
+            <a href="/contact">Contact</a>
           </li>
         </ul>
         <div className="cnt">

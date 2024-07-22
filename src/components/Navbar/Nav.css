@@ -37,6 +37,9 @@ nav ul li a:hover {
   font-weight: 800;
   color: #15008a;
 }
+.logo a {
+  text-decoration: none;
+}
 
 .cnt {
   display: flex;

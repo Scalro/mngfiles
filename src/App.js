@@ -1,16 +1,27 @@
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Nav from "./components/Navbar/Nav";
-import View from "./components/View/Mview.jsx";
 import Footer from "./components/Footer/Footer.jsx";
-import Services from "./components/Services/Services.jsx";
+import Filem from "./components/Services/Filem.jsx";
+import Cloud from "./components/Services/Cloud.jsx";
+import Content from "./components/Services/Content.jsx";
+import Advisory from "./components/Services/Advisory.jsx";
+import Home from "./components/Home.jsx";
 
 function App() {
   return (
     <div className="">
       <Nav />
-      <View />
-      <Services />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/filem" element={<Filem />} />
+          <Route path="/cloud" element={<Cloud />} />
+          <Route path="/content" element={<Content />} />
+          <Route path="/advisory" element={<Advisory />} />
+        </Routes>
+      </BrowserRouter>
       <Footer />
     </div>
   );
