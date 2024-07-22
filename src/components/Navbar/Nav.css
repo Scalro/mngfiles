@@ -1,12 +1,15 @@
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0 30px;
+.nav-cont {
+  height: fit-content;
   position: sticky;
   top: 0;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  margin-bottom: 1rem;
+  background-color: #ececec;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
 }
 
 nav ul {
@@ -18,20 +21,28 @@ nav ul li {
 }
 
 nav ul li a {
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: 1.1rem;
+  font-weight: 700;
   padding: 0.5rem;
   text-decoration: none;
-  color: #030303;
+  color: #15008a;
 }
 nav ul li a:hover {
-  background-color: rgb(66, 66, 66);
+  background-color: rgb(196, 195, 195);
 }
 
 .logo {
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: 800;
-  color: #030303;
-  margin-bottom: 1.2rem;
+  color: #15008a;
+}
+
+.cnt {
+  display: flex;
+  text-align: center;
+}
+.cnt h5 {
+  padding: 0.5rem;
+  color: #414141;
 }

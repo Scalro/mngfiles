@@ -1,0 +1,45 @@
+import "./Footer.css";
+import { MdLocalPhone, MdMail } from "react-icons/md";
+import {
+  FaXTwitter,
+  FaFacebookF,
+  FaWhatsapp,
+  FaLinkedin,
+} from "react-icons/fa6";
+
+function Footer() {
+  return (
+    <div className="foot">
+      <h3 className="log">FMS</h3>
+      <span className="tact">
+        <h5>
+          <MdLocalPhone /> +254723900990
+        </h5>
+        <h5>
+          <MdMail /> info@fms.com
+        </h5>
+        <span style={{ padding: "5px" }}>|</span>
+        <h5>Privacy Policy</h5>
+        <h5>Code of Ethics</h5>
+        <span style={{ padding: "5px" }}>|</span>
+        <span className="social">
+          <a href="#!">
+            <FaXTwitter />
+          </a>
+          <a href="!#">
+            <FaFacebookF />
+          </a>
+          <a href="!#">
+            <FaWhatsapp />
+          </a>
+          <a href="!#">
+            <FaLinkedin />
+          </a>
+        </span>
+      </span>
+      <h6>© Copyright FMS 2024. All Rights Reserved</h6>
+    </div>
+  );
+}
+
+export default Footer;

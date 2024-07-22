@@ -1,0 +1,22 @@
+.view {
+  text-align: center;
+  color: white;
+  height: 42vh;
+  background-image: url("/public/Images/view.png");
+}
+
+.view p {
+  margin: 0;
+}
+
+.view p h2 {
+  color: #ffffff;
+}
+
+.view p h3 {
+  justify-content: center;
+  margin: 0 auto;
+  width: 400px;
+  color: rgb(228, 228, 228);
+  text-wrap: balance;
+}
