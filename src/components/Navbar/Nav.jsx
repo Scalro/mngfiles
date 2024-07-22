@@ -16,6 +16,15 @@ function Nav() {
             <a href="/services">Services</a>
           </li>
           <li>
+            <a href="/contact">Investors</a>
+          </li>
+          <li>
+            <a href="/contact">Governance</a>
+          </li>
+          <li>
+            <a href="/contact">Industry Sectors</a>
+          </li>
+          <li>
             <a href="/contact">Contact</a>
           </li>
         </ul>

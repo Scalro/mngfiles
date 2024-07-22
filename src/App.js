@@ -8,6 +8,7 @@ import Cloud from "./components/Services/Cloud.jsx";
 import Content from "./components/Services/Content.jsx";
 import Advisory from "./components/Services/Advisory.jsx";
 import Home from "./components/Home.jsx";
+import Contact from "./components/Pages/Contact.jsx";
 
 function App() {
   return (
@@ -20,8 +21,10 @@ function App() {
           <Route path="/cloud" element={<Cloud />} />
           <Route path="/content" element={<Content />} />
           <Route path="/advisory" element={<Advisory />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
+      <Contact />
       <Footer />
     </div>
   );

@@ -1,0 +1,36 @@
+.frm {
+  width: 720px;
+}
+form .userdetails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+
+form .userdetails .inputbox {
+  width: calc(100% / 2 - 20px);
+}
+
+.userdetails .inputbox .details {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.userdetails .inputbox input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+}
+
+.socl {
+  display: flex;
+}
+.socl h1 a {
+  margin: 0.6rem;
+}
