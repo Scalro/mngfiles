@@ -104,7 +104,7 @@ function ContactForm() {
       <form ref={form} onSubmit={sendEmail}>
         <div className="userdetails">
           <div className="inputbox">
-            <span className="details">Name</span>
+            <span className="details">First Name</span>
             <input type="text" placeholder="Enter your Name" name="user_name" />
           </div>
           <div className="inputbox">
