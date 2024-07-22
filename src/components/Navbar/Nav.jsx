@@ -33,7 +33,7 @@ function Nav() {
             <MdLocalPhone /> +254720964498
           </h5>
           <h5>
-            <MdMail /> info@fms.com
+            <MdMail /> info@chemwotei.com
           </h5>
         </div>
       </nav>

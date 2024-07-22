@@ -16,7 +16,7 @@ function Footer() {
           <MdLocalPhone /> +254720964498
         </h5>
         <h5>
-          <MdMail /> info@fms.com
+          <MdMail /> info@chemwotei.com
         </h5>
         <span style={{ padding: "5px" }}>|</span>
         <h5>Privacy Policy</h5>
@@ -37,7 +37,7 @@ function Footer() {
           </a>
         </span>
       </span>
-      <h6>© Copyright FMS 2024. All Rights Reserved</h6>
+      <h6>© Copyright Chemwotei 2024. All Rights Reserved</h6>
     </div>
   );
 }

@@ -47,7 +47,7 @@ function AltContact() {
     <div style={{ paddingBottom: "20px" }}>
       <h4 style={{ paddingBottom: "20px" }}> Contacts</h4>
       <span style={{ fontWeight: "bold" }}>Email:</span>{" "}
-      <span>info@fms.com</span> <br />
+      <span>info@chemwotei.com</span> <br />
       <br />
       <span style={{ fontWeight: "bold" }}>Phone:</span>{" "}
       <span>+254720964498 </span>
