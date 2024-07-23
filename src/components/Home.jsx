@@ -5,7 +5,7 @@ import Contact from "./Pages/Contact";
 
 function Home() {
   return (
-    <div>
+    <div className="">
       <View />
       <Services />
       <Contact />

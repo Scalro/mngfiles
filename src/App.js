@@ -13,7 +13,7 @@ import DataA from "./components/Services/DataA.jsx";
 
 function App() {
   return (
-    <div className="">
+    <div className="all">
       <Nav />
       <BrowserRouter>
         <Routes>
