@@ -157,6 +157,7 @@ function ContactForm() {
                 borderRadius: "5px",
                 width: "150px",
                 marginTop: "20px",
+                cursor: "pointer",
               }}
               type="submit"
               value="Send"

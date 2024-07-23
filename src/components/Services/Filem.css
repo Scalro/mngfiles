@@ -1,0 +1,22 @@
+.imag {
+  background-image: url("/public/Images/record.jpg");
+  height: 42vh;
+  color: #fff;
+}
+
+.contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contain ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.contain ul li {
+  margin: 0.5rem;
+}
