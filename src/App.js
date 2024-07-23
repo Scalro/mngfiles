@@ -9,6 +9,7 @@ import Content from "./components/Services/Content.jsx";
 import Advisory from "./components/Services/Advisory.jsx";
 import Home from "./components/Home.jsx";
 import Contact from "./components/Pages/Contact.jsx";
+import DataA from "./components/Services/DataA.jsx";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/content" element={<Content />} />
           <Route path="/advisory" element={<Advisory />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/dataA" element={<DataA />} />
         </Routes>
       </BrowserRouter>
       <Footer />

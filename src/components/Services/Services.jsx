@@ -107,7 +107,7 @@ function Card2() {
         workflows and reduces the risk of data loss.
       </p>
       <div className="button">
-        <a href="/filem">Explore More..</a>
+        <a href="/dataA">Explore More..</a>
       </div>
     </div>
   );

@@ -1,10 +1,10 @@
-import "./Cloud.css";
+import React from "react";
 
-function Cloud() {
+function DataA() {
   return (
     <div>
       <div className="imag">
-        <h1>Cloud Services</h1>
+        <h1>Data Analytics</h1>
         <p>
           Comprehensive Solutions For Storage, Scanning, Filing, And
           Confidential Destruction
@@ -14,4 +14,4 @@ function Cloud() {
   );
 }
 
-export default Cloud;
+export default DataA;
