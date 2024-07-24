@@ -10,13 +10,13 @@ import {
 function Footer() {
   return (
     <div className="foot">
-      <h3 className="log">CHEMWOTEI</h3>
+      <h3 className="log">SpotFile</h3>
       <span className="tact">
         <h5>
           <MdLocalPhone /> +254720964498
         </h5>
         <h5>
-          <MdMail /> info@chemwotei.com
+          <MdMail /> info@spotfile.com
         </h5>
         <span style={{ padding: "5px" }}>|</span>
         <h5>Privacy Policy</h5>
