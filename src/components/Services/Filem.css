@@ -37,3 +37,29 @@
   text-align: justify;
   margin: 40px;
 }
+
+.ctn {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.crd {
+  width: 300px;
+  height: 150px;
+  background-color: rgb(65, 64, 64);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.crd p {
+  text-wrap: wrap;
+  text-align: center;
+  margin: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}

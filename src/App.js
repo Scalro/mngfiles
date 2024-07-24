@@ -6,7 +6,7 @@ import Footer from "./components/Footer/Footer.jsx";
 import Filem from "./components/Services/Filem.jsx";
 import Cloud from "./components/Services/Cloud.jsx";
 import Content from "./components/Services/Content.jsx";
-import Advisory from "./components/Services/Advisory.jsx";
+import General from "./components/Services/General.jsx";
 import Home from "./components/Home.jsx";
 import Contact from "./components/Pages/Contact.jsx";
 import DataA from "./components/Services/DataA.jsx";
@@ -21,7 +21,7 @@ function App() {
           <Route path="/filem" element={<Filem />} />
           <Route path="/cloud" element={<Cloud />} />
           <Route path="/content" element={<Content />} />
-          <Route path="/advisory" element={<Advisory />} />
+          <Route path="/advisory" element={<General />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/dataA" element={<DataA />} />
         </Routes>

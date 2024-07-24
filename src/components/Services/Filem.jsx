@@ -42,6 +42,32 @@ function Filem() {
               whereby Metrofile manages the infrastructure and staffing on
               customer premises or a customised combination of both.
             </p>
+            <div className="ctn">
+              <div className="crd">
+                <div className="ct">
+                  <h3>Digital Scanning</h3>
+                  <p>Convert media into digital copies.</p>
+                </div>
+              </div>
+              <div className="crd">
+                <div className="ct">
+                  <h3>Production Film Digitisation (Scanning)</h3>
+                  <p>
+                    Scanning of roll film, fiche or aperture cards for the rapid
+                    digitising of high volumes of data.
+                  </p>
+                </div>
+              </div>
+              <div className="crd">
+                <div className="ct">
+                  <h3>COM Recording</h3>
+                  <p>
+                    Fast and economical method of converting digital files to
+                    proven and archival micro-formats.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div className={toggle === 2 ? "tbs" : "tabs"}>

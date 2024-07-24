@@ -79,7 +79,7 @@ function Card5() {
   return (
     <div className="card">
       <span className="icon">
-        <MdMiscellaneousServices /> <h2>Advisory Services</h2>
+        <MdMiscellaneousServices /> <h2>General Services</h2>
       </span>
       <p>
         We organize, store, and allow accessing of digital files efficiently. We

@@ -1,10 +1,10 @@
-import "./Advisory.css";
+import "./General.css";
 
 function Advisory() {
   return (
     <div>
       <div className="imag">
-        <h1>Advisory Services</h1>
+        <h1>General Services</h1>
         <p>
           Comprehensive Solutions For Storage, Scanning, Filing, And
           Confidential Destruction
