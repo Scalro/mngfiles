@@ -16,13 +16,13 @@ function Nav() {
             <a href="/services">Services</a>
           </li>
           <li>
-            <a href="/contact">Investors</a>
+            <a href="/investors">Investors</a>
           </li>
           <li>
-            <a href="/contact">Governance</a>
+            <a href="/governance">Governance</a>
           </li>
           <li>
-            <a href="/contact">Industry Sectors</a>
+            <a href="/industry">Industry Sectors</a>
           </li>
           <li>
             <a href="/contact">Contact</a>
