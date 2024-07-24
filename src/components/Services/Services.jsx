@@ -60,7 +60,7 @@ function Card4() {
   return (
     <div className="card">
       <span className="icon">
-        <MdOutlineContentPaste /> <h2>Content Management</h2>
+        <MdOutlineContentPaste /> <h2>Data and Content Management</h2>
       </span>
       <p>
         We organize, store, and allow accessing of digital files efficiently. We
