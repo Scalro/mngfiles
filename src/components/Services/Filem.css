@@ -46,7 +46,7 @@
 
 .crd {
   width: 300px;
-  height: 150px;
+  height: 250px;
   background-color: rgb(65, 64, 64);
   overflow: hidden;
   margin: 20px;
@@ -58,8 +58,19 @@
 
 .crd p {
   text-wrap: wrap;
-  text-align: center;
+  text-align: centercrd;
   margin: 8px;
   font-size: 0.9rem;
   font-weight: 600;
+}
+.ig {
+  display: flex;
+  align-items: center;
+  margin-left: 400px;
+}
+.ig img {
+  height: 300px;
+}
+.ig p {
+  width: 500px;
 }

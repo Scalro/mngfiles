@@ -1,9 +1,11 @@
+.main {
+  margin-top: auto;
+}
 .foot {
   background-color: rgb(0, 0, 161);
   width: 100%;
   text-align: center;
   color: #ffffff;
-  margin-top: auto;
 }
 
 .log {
