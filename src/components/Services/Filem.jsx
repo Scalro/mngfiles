@@ -137,19 +137,22 @@ function Filem() {
         <div className={toggle === 4 ? "tbs" : "tabs"}>
           <div className="cn">
             <h1>Confidential Destruction</h1>
-            <p>
-              SpotFile offers a range of filing and storage products to help
-              businesses keep their documents organized and easily accessible.
-              Your records can be a goldmine for identity thieves and you may be
-              inadvertently helping them. Protect your identity, save yourself
-              time, and prevent the hassle of fraud by securely disposing your
-              confidential information. Our world-class systems and
-              state-of-the-art cross-cutting technology deliver superior on-site
-              and off-site document destruction solutions to businesses across
-              South Africa. Not sure how often you need to shred? Our product
-              brand, Cleardata will advise you how often your business needs to
-              destroy confidential information.
-            </p>
+            <div className="ig">
+              <img src="/Images/shred.png" alt="" />
+              <p>
+                SpotFile offers a range of filing and storage products to help
+                businesses keep their documents organized and easily accessible.
+                Your records can be a goldmine for identity thieves and you may
+                be inadvertently helping them. Protect your identity, save
+                yourself time, and prevent the hassle of fraud by securely
+                disposing your confidential information. Our world-class systems
+                and state-of-the-art cross-cutting technology deliver superior
+                on-site and off-site document destruction solutions to
+                businesses across South Africa. Not sure how often you need to
+                shred? Our product brand, Cleardata will advise you how often
+                your business needs to destroy confidential information.
+              </p>
+            </div>
           </div>
         </div>
       </div>
