@@ -8,7 +8,7 @@ function About() {
         <h2>We make information</h2>
         <h1>smarter, faster and easier</h1>
         <p>
-          For four decades, Metrofile has been an industry leader and innovator
+          For four decades, SpotFile has been an industry leader and innovator
           in the field of information management. With 70 facilities across 35
           locations and a warehousing capacity of 117,525 square metres.
         </p>
