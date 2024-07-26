@@ -8,12 +8,15 @@ import {
 
 function Services() {
   return (
-    <div className="container">
-      <Card1 />
-      <Card2 />
-      <Card3 />
-      <Card4 />
-      <Card5 />
+    <div>
+      <h2 style={{ textAlign: "center", color: "#000e75" }}>Our Services</h2>
+      <div className="container">
+        <Card1 />
+        <Card2 />
+        <Card3 />
+        <Card4 />
+        <Card5 />
+      </div>
     </div>
   );
 }

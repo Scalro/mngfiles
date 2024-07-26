@@ -11,6 +11,7 @@ import Home from "./components/Home.jsx";
 import Contact from "./components/Pages/Contact.jsx";
 import DataA from "./components/Services/DataA.jsx";
 import Services from "./components/Services/Services.jsx";
+import About from "./components/Pages/About.jsx";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/dataA" element={<DataA />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </BrowserRouter>
       <Footer />

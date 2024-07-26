@@ -1,0 +1,65 @@
+.abt {
+  background-color: rgb(0, 0, 161);
+  color: #fff;
+  text-align: center;
+}
+
+.abt h1 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.abt h2 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.abt p {
+  text-align: center;
+}
+
+.areyou {
+  margin-left: 100px;
+  margin-right: 800px;
+}
+
+.values {
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.vcrd {
+  color: #d4cbcb;
+  width: 300px;
+  height: 200px;
+  background-color: rgb(37, 37, 37);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+}
+
+.val {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mv {
+  color: #494949;
+  width: 400px;
+  height: 150px;
+  background-color: rgb(230, 230, 230);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+}
+.mv h3 {
+  color: #000fda;
+}
+.mv p {
+  color: #3f3f3f;
+  text-align: justify;
+  margin: 0 10px;
+  font-weight: 600;
+}
