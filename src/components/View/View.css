@@ -1,8 +1,7 @@
 .view {
   text-align: center;
-  color: white;
-  height: 42vh;
-  background-image: url("/public/Images/view.png");
+  color: rgb(0, 24, 158);
+  height: 65vh;
 }
 
 .view p {
@@ -10,7 +9,7 @@
 }
 
 .view p h2 {
-  color: #ffffff;
+  color: #0003cf;
 }
 
 .view p h3 {

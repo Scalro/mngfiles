@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "./Filem.css";
+import Slider from "./Slider";
 
 function Filem() {
   const [toggle, setToggle] = useState(1);
@@ -12,11 +13,9 @@ function Filem() {
     <div>
       <div className="imag">
         <h1>Record Management</h1>
-        <p>
-          Comprehensive Solutions For Storage, Scanning, Filing, And
-          Confidential Destruction
-        </p>
+        <Slider />
       </div>
+
       <div className="sbtn">
         <button onClick={() => UpdateTabs(1)}>Scanning</button>{" "}
         <button onClick={() => UpdateTabs(2)}>Storage</button>{" "}
@@ -28,6 +27,7 @@ function Filem() {
       <div>
         <div className={toggle === 1 ? "tbs" : "tabs"}>
           <div className="cn">
+            <div></div>
             <h1>Scanning</h1>
             <p>
               SpotFile has captured over 60 million lines of data and stored
@@ -138,7 +138,7 @@ function Filem() {
           <div className="cn">
             <h1>Confidential Destruction</h1>
             <div className="ig">
-              <img src="/Images/shred.png" alt="" />
+              <img src="/Images/09.png" alt="" />
               <p>
                 SpotFile offers a range of filing and storage products to help
                 businesses keep their documents organized and easily accessible.
