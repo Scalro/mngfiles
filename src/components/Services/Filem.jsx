@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
 import "./Filem.css";
-import Slider from "./Slider";
 
 function Filem() {
   const [toggle, setToggle] = useState(1);
@@ -13,7 +12,10 @@ function Filem() {
     <div>
       <div className="imag">
         <h1>Record Management</h1>
-        <Slider />
+        <p>
+          Comprehensive Solutions for Storage, Scanning, Filing, and
+          Confidential Destruction
+        </p>
       </div>
 
       <div className="sbtn">
