@@ -66,10 +66,11 @@
 .ig {
   display: flex;
   align-items: center;
-  margin-left: 400px;
+  margin-left: 100px;
 }
 .ig img {
-  height: 300px;
+  height: 210px;
+  width: 400px;
 }
 .ig p {
   width: 500px;

@@ -116,7 +116,7 @@ function Filem() {
           <div className="cn">
             <h1>Filing and Storage Products</h1>
             <div className="ig">
-              <img src="/Images/filing.png" alt="filing" />
+              <img src="/Images/002.jpeg" alt="filing" />
 
               <p>
                 SpotFile offers a range of filing and storage products to help
@@ -131,6 +131,7 @@ function Filem() {
                 required for moving and packing for both business and commercial
                 use.
               </p>
+              <img src="/Images/01.jpeg" alt="" />
             </div>
           </div>
         </div>
@@ -138,7 +139,7 @@ function Filem() {
           <div className="cn">
             <h1>Confidential Destruction</h1>
             <div className="ig">
-              <img src="/Images/09.png" alt="" />
+              <img src="/Images/07.jpeg" alt="" />
               <p>
                 SpotFile offers a range of filing and storage products to help
                 businesses keep their documents organized and easily accessible.
@@ -152,6 +153,7 @@ function Filem() {
                 shred? Our product brand, Cleardata will advise you how often
                 your business needs to destroy confidential information.
               </p>
+              <img src="/Images/08.jpeg" alt="" />
             </div>
           </div>
         </div>

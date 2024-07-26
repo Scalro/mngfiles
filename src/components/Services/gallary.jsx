@@ -1,12 +1,12 @@
 const gallery = [
   {
     id: 1,
-    image: "/Images/01.png",
+    image: "/Images/01.jpeg",
     name: "cover1",
   },
   {
     id: 2,
-    image: "/Images/filing.png",
+    image: "/Images/002.jpeg",
     name: "cover2",
   },
   {
@@ -16,7 +16,7 @@ const gallery = [
   },
   {
     id: 4,
-    image: "/Images/09.png",
+    image: "/Images/07.jpeg",
     name: "cover3",
   },
 ];
