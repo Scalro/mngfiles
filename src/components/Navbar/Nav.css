@@ -36,8 +36,10 @@ nav ul li a:hover {
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: 800;
-  color: #15008a;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #2903ff;
 }
+
 .logo a {
   text-decoration: none;
 }
