@@ -80,7 +80,7 @@ function Filem() {
             </p>
             <div className="str">
               <img src="/Images/002.jpeg" alt="filing" />
-              <img src="/Images/01.jpeg" alt="" />
+              <img style={{ height: "270px" }} src="/Images/01.jpeg" alt="" />
             </div>
             <div className="ctn">
               <div className="crd">

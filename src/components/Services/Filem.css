@@ -77,12 +77,11 @@
 
 .str {
   display: flex;
-  margin-left: 170px;
-  margin-right: 170px;
+  align-items: center;
+  justify-content: center;
 }
 
 .str img {
-  text-align: center;
   margin: 20px;
-  width: 500px;
+  width: 400px;
 }
