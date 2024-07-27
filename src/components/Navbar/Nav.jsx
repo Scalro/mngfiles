@@ -19,7 +19,7 @@ function Nav() {
             <a href="/services">Our Services</a>
           </li>
           <li>
-            <a href="/investors">Investors</a>
+            <a href="/investors">Partners</a>
           </li>
           <li>
             <a href="/governance">Governance</a>
