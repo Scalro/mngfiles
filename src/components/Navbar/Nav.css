@@ -22,11 +22,11 @@ nav ul li {
 }
 
 nav ul li a {
-  font-size: 1.1rem;
-  font-weight: 700;
+  font-size: 1rem;
+  font-weight: 500;
   padding: 0.5rem;
   text-decoration: none;
-  color: #15008a;
+  color: #0084c2;
 }
 nav ul li a:hover {
   background-color: rgb(196, 195, 195);
