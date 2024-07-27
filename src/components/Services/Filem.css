@@ -77,7 +77,8 @@
 
 .str {
   display: flex;
-  margin-left: 250px;
+  margin-left: 170px;
+  margin-right: 170px;
 }
 
 .str img {
