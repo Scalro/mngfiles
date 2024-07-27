@@ -7,7 +7,7 @@ import "./DataA.css"; // Import the CSS file
 // Register necessary components
 Chart.register(...registerables);
 
-const AnalyticsPage = () => {
+const DataA = () => {
   // Sample data for demonstration
   const fileData = [
     { type: "Document", count: 120, storage: 150 },
@@ -51,19 +51,21 @@ const AnalyticsPage = () => {
   const chartRef = useRef(null);
 
   useEffect(() => {
+    // Capture the current chart instance in a local variable
+    const chartInstance = chartRef.current;
+
     // Cleanup chart instance on component unmount
     return () => {
-      if (chartRef.current) {
-        chartRef.current.destroy();
+      if (chartInstance) {
+        chartInstance.destroy();
       }
     };
-  }, []);
+  }, []); // The dependency array is empty because we want this effect to run once, similar to componentDidMount.
 
   return (
     <div className="App">
-      {" "}
-      {/* Use the App class from CSS */}
       <h1>File Storage and Management Analytics</h1>
+
       <div style={{ margin: "20px 0" }}>
         <h2>Overview</h2>
         <ul>
@@ -76,6 +78,7 @@ const AnalyticsPage = () => {
           </li>
         </ul>
       </div>
+
       <div className="chart-container">
         <h2>File Type Distribution</h2>
         <Bar ref={chartRef} data={chartData} options={chartOptions} />
@@ -84,4 +87,4 @@ const AnalyticsPage = () => {
   );
 };
 
-export default AnalyticsPage;
+export default DataA;
