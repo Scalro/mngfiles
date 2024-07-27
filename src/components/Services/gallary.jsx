@@ -17,7 +17,18 @@ const gallery = [
   {
     id: 4,
     image: "/Images/07.jpeg",
-    name: "cover3",
+    name: "cover4",
+  },
+  {
+    id: 5,
+    image: "/Images/vrecorder.png",
+    name: "cover5",
+  },
+
+  {
+    id: 6,
+    image: "/Images/scanner.png",
+    name: "cover6",
   },
 ];
 

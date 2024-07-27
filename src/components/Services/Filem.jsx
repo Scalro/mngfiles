@@ -41,6 +41,10 @@ function Filem() {
               whereby SpotFile manages the infrastructure and staffing on
               customer premises or a customised combination of both.
             </p>
+            <div className="str">
+              <img src="/Images/scanner.png" alt="" />
+              <img src="Images/vrecorder.png" alt="" />
+            </div>
             <div className="ctn">
               <div className="crd">
                 <div className="ct">
