@@ -1,6 +1,6 @@
 .imag {
   background-image: url("/public/Images/record.jpg");
-  height: 42vh;
+  height: 74vh;
   color: #fff;
   text-align: center;
   font-weight: bold;
@@ -73,5 +73,16 @@
   width: 400px;
 }
 .ig p {
+  width: 500px;
+}
+
+.str {
+  display: flex;
+  margin-left: 250px;
+}
+
+.str img {
+  text-align: center;
+  margin: 20px;
   width: 500px;
 }

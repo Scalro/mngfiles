@@ -11,8 +11,8 @@ const DataA = () => {
   // Sample data for demonstration
   const fileData = [
     { type: "Document", count: 120, storage: 150 },
-    { type: "Image", count: 80, storage: 200 },
-    { type: "Video", count: 30, storage: 500 },
+    { type: "Image", count: 80, storage: 160 },
+    { type: "Video", count: 30, storage: 100 },
     { type: "Audio", count: 50, storage: 100 },
   ];
 
