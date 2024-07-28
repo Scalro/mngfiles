@@ -53,15 +53,13 @@ function Services() {
 
 function Card1() {
   return (
-    <div>
-      <a href="/training">
-        <div className="card">
-          <div className="button">
-            <FaChalkboardTeacher />
-          </div>
+    <a href="/training">
+      <div className="card">
+        <div className="button">
+          <FaChalkboardTeacher />
         </div>
-      </a>
-    </div>
+      </div>
+    </a>
   );
 }
 
