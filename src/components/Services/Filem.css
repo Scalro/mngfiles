@@ -1,87 +1,32 @@
 .imag {
-  height: 74vh;
-  color: #fff;
+  background-image: url("/public/Images/002.jpeg");
   text-align: center;
-  font-weight: bold;
+  height: 36vh;
 }
 
-.sbtn {
-  text-align: center;
-  margin: 5px;
-}
-
-.sbtn button {
-  padding: 15px;
-  font-size: large;
-  font-weight: bold;
-  color: blue;
-  border-style: none;
-  cursor: pointer;
-}
-
-.sbtn button:hover {
-  background-color: #9c9a9a;
-}
-
-.tbs {
+.tr {
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
-.tabs {
-  display: none;
-}
-.cn {
+
+.trr {
+  width: 1080px;
   text-align: center;
 }
-.cn p {
-  text-align: justify;
+
+.trr h3 i {
+  color: #003cff;
+}
+
+.trrr {
+  display: flex;
   margin: 40px;
+  text-align: justify;
 }
 
-.ctn {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.crd {
-  width: 300px;
-  height: 250px;
-  background-color: rgb(65, 64, 64);
-  overflow: hidden;
-  margin: 20px;
-  text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  color: #fff;
-  border-radius: 5px;
-}
-
-.crd p {
-  text-wrap: wrap;
-  text-align: centercrd;
-  margin: 8px;
-  font-size: 0.9rem;
-  font-weight: 600;
-}
-.ig {
-  display: flex;
-  align-items: center;
-  margin-left: 100px;
-}
-.ig img {
-  height: 210px;
-  width: 400px;
-}
-.ig p {
+.trrr img {
   width: 500px;
-}
-
-.str {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.str img {
-  margin: 20px;
-  width: 400px;
+  height: 240px;
+  margin: 0 50px;
 }
