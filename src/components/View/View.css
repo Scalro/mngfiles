@@ -1,15 +1,12 @@
 .view {
   text-align: center;
-  color: rgb(0, 24, 158);
-  height: 70vh;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
 }
 
 .view p {
   margin: 0;
-}
-
-.view p h2 {
-  color: #2226f0;
 }
 
 .view p h3 {
@@ -20,57 +17,44 @@
   text-wrap: balance;
 }
 
-.view h2:first-of-type {
-  animation: showup 7s infinite;
+.over {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.overview {
+  width: 1080px;
+  height: fit-content;
 }
 
-@keyframes showup {
-  0% {
-    opacity: 0;
-  }
-  20% {
-    opacity: 1;
-  }
-  80% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
+.overview p {
+  margin: 0 50px;
+}
+.overview h4 {
+  color: #2226f0;
+  font-size: 1.8rem;
 }
 
-@keyframes slidein {
-  0% {
-    margin-left: -800px;
-  }
-  20% {
-    margin-left: -800px;
-  }
-  35% {
-    margin-left: 0px;
-  }
-  100% {
-    margin-left: 0px;
-  }
+.ov {
+  display: flex;
+  margin: 50px;
+  text-align: justify;
 }
 
-@keyframes reveal {
-  0% {
-    opacity: 0;
-    width: 0px;
-  }
-  20% {
-    opacity: 1;
-    width: 0px;
-  }
-  30% {
-    width: 355px;
-  }
-  80% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    width: 355px;
-  }
+.ov img {
+  width: 700px;
+  height: 240px;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  background-color: #2226f0;
+  border-radius: 5px;
+  border: none;
+}
+
+button a {
+  text-decoration: none;
+  color: #fff;
 }

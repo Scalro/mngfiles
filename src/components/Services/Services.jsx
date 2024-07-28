@@ -8,14 +8,43 @@ import {
 
 function Services() {
   return (
-    <div>
-      <h2 style={{ textAlign: "center", color: "#000e75" }}>Our Services</h2>
+    <div className="wrap">
+      <h1>Records Management Solutions</h1>
+      <h5>
+        AGS Records Management offers you a wide range of tailor-made services
+        to meet all of your needs
+      </h5>
       <div className="container">
-        <Card1 />
-        <Card2 />
-        <Card3 />
-        <Card4 />
-        <Card5 />
+        <div className="cls">
+          <Card1 />
+          <h4>Auditing and Training</h4>
+        </div>
+        <div className="cls">
+          <Card2 />
+          <h4>Physical Archiving</h4>
+        </div>
+        <div className="cls">
+          <Card3 />
+          <h4>Electronic Archiving</h4>
+        </div>
+        <div className="cls">
+          <Card4 />
+          <h4>Digital Imaging</h4>
+        </div>
+        <div className="cls">
+          <Card5 />
+          <h4>Heritage Imaging</h4>
+        </div>
+        <p>
+          AGS Records Management is able to assist in all stages of your
+          archiving project: from analysing your documents, to filing and
+          storing them physically or electronically. We also offer a heritage
+          document imaging solution for our clients' heritage documentation
+          preservation.
+        </p>
+        <button>
+          <a href="/contact">Contact Us</a>
+        </button>
       </div>
     </div>
   );
@@ -23,18 +52,11 @@ function Services() {
 
 function Card1() {
   return (
-    <div className="card">
-      <span className="icon">
-        <FaFile /> <h2>Record Management</h2>
-      </span>
-      <p>
-        We organize, store, and allow accessing of digital files efficiently. We
-        provide naming conventions, folder structures, backups, and permissions
-        to ensure data integrity, security, and easy retrieval. This streamlines
-        workflows and reduces the risk of data loss.
-      </p>
-      <div className="button">
-        <a href="/filem">Explore More..</a>
+    <div>
+      <div className="card">
+        <div className="button">
+          <FaFile />
+        </div>
       </div>
     </div>
   );
@@ -43,17 +65,8 @@ function Card1() {
 function Card3() {
   return (
     <div className="card">
-      <span className="icon">
-        <FaCloud /> <h2>Cloud Services</h2>
-      </span>
-      <p>
-        We organize, store, and allow accessing of digital files efficiently. We
-        provide naming conventions, folder structures, backups, and permissions
-        to ensure data integrity, security, and easy retrieval. This streamlines
-        workflows and reduces the risk of data loss.
-      </p>
       <div className="button">
-        <a href="/cloud">Explore More..</a>
+        <FaCloud />
       </div>
     </div>
   );
@@ -62,17 +75,8 @@ function Card3() {
 function Card4() {
   return (
     <div className="card">
-      <span className="icon">
-        <MdOutlineContentPaste /> <h2>Data and Content Management</h2>
-      </span>
-      <p>
-        We organize, store, and allow accessing of digital files efficiently. We
-        provide naming conventions, folder structures, backups, and permissions
-        to ensure data integrity, security, and easy retrieval. This streamlines
-        workflows and reduces the risk of data loss.
-      </p>
       <div className="button">
-        <a href="/content">Explore More..</a>
+        <MdOutlineContentPaste />
       </div>
     </div>
   );
@@ -81,17 +85,8 @@ function Card4() {
 function Card5() {
   return (
     <div className="card">
-      <span className="icon">
-        <MdMiscellaneousServices /> <h2>General Services</h2>
-      </span>
-      <p>
-        We organize, store, and allow accessing of digital files efficiently. We
-        provide naming conventions, folder structures, backups, and permissions
-        to ensure data integrity, security, and easy retrieval. This streamlines
-        workflows and reduces the risk of data loss.
-      </p>
       <div className="button">
-        <a href="/advisory">Explore More..</a>
+        <MdMiscellaneousServices />
       </div>
     </div>
   );
@@ -100,17 +95,8 @@ function Card5() {
 function Card2() {
   return (
     <div className="card">
-      <span className="icon">
-        <MdAnalytics /> <h2>Data Analytics</h2>
-      </span>
-      <p>
-        We organize, store, and allow accessing of digital files efficiently. We
-        provide naming conventions, folder structures, backups, and permissions
-        to ensure data integrity, security, and easy retrieval. This streamlines
-        workflows and reduces the risk of data loss.
-      </p>
       <div className="button">
-        <a href="/dataA">Explore More..</a>
+        <MdAnalytics />
       </div>
     </div>
   );
