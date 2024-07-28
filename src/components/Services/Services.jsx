@@ -1,10 +1,11 @@
 import "./Services.css";
-import { FaFile, FaCloud } from "react-icons/fa";
 import {
-  MdOutlineContentPaste,
-  MdMiscellaneousServices,
-  MdAnalytics,
-} from "react-icons/md";
+  FaServer,
+  FaArchive,
+  FaFeatherAlt,
+  FaChalkboardTeacher,
+} from "react-icons/fa";
+import { MdScanner } from "react-icons/md";
 
 function Services() {
   return (
@@ -53,52 +54,62 @@ function Services() {
 function Card1() {
   return (
     <div>
-      <div className="card">
-        <div className="button">
-          <FaFile />
+      <a href="/training">
+        <div className="card">
+          <div className="button">
+            <FaChalkboardTeacher />
+          </div>
         </div>
-      </div>
+      </a>
     </div>
   );
 }
 
 function Card3() {
   return (
-    <div className="card">
-      <div className="button">
-        <FaCloud />
+    <a href="/farchiving">
+      <div className="card">
+        <div className="button">
+          <FaServer />
+        </div>
       </div>
-    </div>
+    </a>
   );
 }
 
 function Card4() {
   return (
-    <div className="card">
-      <div className="button">
-        <MdOutlineContentPaste />
+    <a href="/scanning">
+      <div className="card">
+        <div className="button">
+          <MdScanner />
+        </div>
       </div>
-    </div>
+    </a>
   );
 }
 
 function Card5() {
   return (
-    <div className="card">
-      <div className="button">
-        <MdMiscellaneousServices />
+    <a href="/heritage">
+      <div className="card">
+        <div className="button">
+          <FaFeatherAlt />
+        </div>
       </div>
-    </div>
+    </a>
   );
 }
 
 function Card2() {
   return (
-    <div className="card">
-      <div className="button">
-        <MdAnalytics />
+    <a href="/earchiving">
+      <div className="card">
+        <div className="button">
+          <FaArchive />
+        </div>
       </div>
-    </div>
+    </a>
   );
 }
 
