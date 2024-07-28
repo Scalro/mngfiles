@@ -1,5 +1,6 @@
 import React from "react";
 import "./Filem.css";
+import { FaClipboardList } from "react-icons/fa";
 function Filem() {
   return (
     <div>
@@ -38,6 +39,33 @@ function Filem() {
             </p>
           </div>
           <h2>Complete Auditing and Document Management Training Solutions</h2>
+          <h5>
+            Our team of experts will ensure the best possible system is
+            developed to suit your archiving needs
+          </h5>
+        </div>
+      </div>
+      <div className="r">
+        <span>
+          <i>
+            <FaClipboardList />
+          </i>
+        </span>
+        <div className="rr">
+          <p>
+            <h3>Reords Auditing</h3>
+            <p>
+              The audit ensures a state-of-the-art records management process is
+              developed for all your departments. It finds solutions to any
+              problems, taking into account regulatory controls and any
+              constraints specific to your company, as well as the direct and
+              indirect costs of physical archiving and electronic archiving.
+              Following this customised analysis our team can develop and
+              implement procedures and document management solutions, as well as
+              train your staff, in order to improve your company’s records
+              management.
+            </p>
+          </p>
         </div>
       </div>
     </div>
