@@ -1,28 +1,10 @@
-.abt {
-  background-color: #000fda;
-  color: #fff;
-  text-align: center;
-}
-
-.abt h1 {
-  font-weight: bold;
-  font-size: 3rem;
-  color: #fff;
-}
-
-.abt h2 {
-  font-weight: bold;
-  font-size: 2rem;
-  color: #fff;
-}
-
-.abt p {
-  text-align: center;
-}
-
 .areyou {
-  margin-left: 100px;
-  margin-right: 800px;
+  text-align: center;
+}
+
+.areyou p {
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
 .values {
@@ -32,13 +14,21 @@
 }
 
 .vcrd {
-  color: #d4cbcb;
+  color: #121169;
   width: 300px;
   height: 200px;
-  background-color: rgb(37, 37, 37);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   overflow: hidden;
   margin: 20px;
   text-align: center;
+}
+
+.vcrd h3 {
+  color: #000fda;
+}
+
+.vcrd p {
+  margin: 0 10px;
 }
 
 .val {
@@ -54,14 +44,13 @@
   background-color: rgb(230, 230, 230);
   overflow: hidden;
   margin: 20px;
-  text-align: center;
 }
 .mv h3 {
   color: #000fda;
 }
 .mv p {
   color: #3f3f3f;
-  text-align: justify;
-  margin: 0 10px;
+  text-align: center;
   font-weight: 600;
+  margin: 0 20px;
 }

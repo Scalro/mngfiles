@@ -12,7 +12,7 @@ function View() {
         <Slider />
         <div className="over">
           <div className="overview">
-            <h4>SpotFile RECORD MANAGEMENT COMPANY</h4>
+            <h4>SpotFile Record Management Company</h4>
             <p>
               Complete and customised archives and records management solutions
               to meet all your company’s archiving needs. SpotFile Records

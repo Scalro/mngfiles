@@ -4,21 +4,6 @@ import "./About.css";
 function About() {
   return (
     <div>
-      <div className="abt">
-        <h2>We make information</h2>
-        <h1>smarter, faster and easier</h1>
-        <p>
-          For four decades, SpotFile has been an industry leader and innovator
-          in the field of information management. With 70 facilities across 35
-          locations and a warehousing capacity of 117,525 square metres.
-        </p>
-        <p>
-          As a highly credible and trusted specialist services company with
-          international operations covering South Africa, Botswana, Kenya,
-          Mozambique and the Middle East, SpotFile has been listed as a JSE
-          limited company since 1995.
-        </p>
-      </div>
       <div className="areyou">
         <h1 style={{ color: "#132ceb" }}>
           Are you prepared for the changes ahead?
@@ -40,44 +25,36 @@ function About() {
         </p>
         <div className="val">
           <div className="vcrd">
-            <div>
-              <h3>We show commitment</h3>
-              <p>
-                We are passionate about and committed to providing quality
-                service to our clients above all else
-              </p>
-            </div>
+            <h3>We show commitment</h3>
+            <p>
+              We are passionate about and committed to providing quality service
+              to our clients above all else
+            </p>
           </div>
           <div className="vcrd">
-            <div>
-              <h3>We act with integrity</h3>
-              <p>
-                We earn trust by consistently doing things the right way and
-                delivering on our commitments every day. We hold ourselves
-                accountable for results, creating a culture of responsibility
-                and reliability
-              </p>
-            </div>
+            <h3>We act with integrity</h3>
+            <p>
+              We earn trust by consistently doing things the right way and
+              delivering on our commitments every day. We hold ourselves
+              accountable for results, creating a culture of responsibility and
+              reliability
+            </p>
           </div>
           <div className="vcrd">
-            <div>
-              <h3>We manifest resourcefulness</h3>
-              <p>
-                We act with courage and creativity and are agile and adaptable
-                in finding new and smarter ways to grow our Company and each
-                other to achieve a better and more sustainable future for all.
-              </p>
-            </div>
+            <h3>We manifest resourcefulness</h3>
+            <p>
+              We act with courage and creativity and are agile and adaptable in
+              finding new and smarter ways to grow our Company and each other to
+              achieve a better and more sustainable future for all.
+            </p>
           </div>
           <div className="vcrd">
-            <div>
-              <h3>We embody collaboration</h3>
-              <p>
-                We know it takes people with different ideas, strengths,
-                interests and cultural backgrounds to make our Company, and our
-                clients, succeed.
-              </p>
-            </div>
+            <h3>We embody collaboration</h3>
+            <p>
+              We know it takes people with different ideas, strengths, interests
+              and cultural backgrounds to make our Company, and our clients,
+              succeed.
+            </p>
           </div>
         </div>
         <div className="val">

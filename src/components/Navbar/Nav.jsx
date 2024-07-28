@@ -24,13 +24,10 @@ function Nav() {
           <li>
             <a href="/governance">Governance</a>
           </li>
-          <li>
-            <a href="/industry">Industry Sectors</a>
-          </li>
-          <li>
-            <a href="/contact">Contact</a>
-          </li>
         </ul>
+        <button>
+          <a href="/contact">Contact Us</a>
+        </button>
         <div className="cnt">
           <h5>
             <MdLocalPhone /> +254720964498
