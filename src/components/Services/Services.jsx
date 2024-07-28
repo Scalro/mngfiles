@@ -11,8 +11,8 @@ function Services() {
     <div className="wrap">
       <h1>Records Management Solutions</h1>
       <h5>
-        AGS Records Management offers you a wide range of tailor-made services
-        to meet all of your needs
+        SpotFile Records Management offers you a wide range of tailor-made
+        services to meet all of your needs
       </h5>
       <div className="container">
         <div className="cls">
@@ -36,7 +36,7 @@ function Services() {
           <h4>Heritage Imaging</h4>
         </div>
         <p>
-          AGS Records Management is able to assist in all stages of your
+          SpotFile Records Management is able to assist in all stages of your
           archiving project: from analysing your documents, to filing and
           storing them physically or electronically. We also offer a heritage
           document imaging solution for our clients' heritage documentation
