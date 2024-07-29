@@ -25,7 +25,7 @@ function Content() {
             </i>
           </h3>
           <div className="trrr">
-            <img src="/Images/002.jpeg" alt="" />
+            <img src="/Images/scanner.png" alt="" />
             <p>
               <p>
                 In our modern world, digital imaging is becoming increasingly
