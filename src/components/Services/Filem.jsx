@@ -1,6 +1,7 @@
 import React from "react";
 import "./Filem.css";
-import { FaClipboardList } from "react-icons/fa";
+import { FaClipboardList, FaUsersCog } from "react-icons/fa";
+import { TbBulb } from "react-icons/tb";
 function Filem() {
   return (
     <div>
@@ -48,7 +49,7 @@ function Filem() {
       <div className="r">
         <span>
           <i>
-            <FaClipboardList />
+            <TbBulb />
           </i>
         </span>
         <div className="rr">
@@ -90,7 +91,7 @@ function Filem() {
       <div className="r">
         <span>
           <i>
-            <FaClipboardList />
+            <FaUsersCog />
           </i>
         </span>
         <div className="rr">
