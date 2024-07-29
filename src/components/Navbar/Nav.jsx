@@ -5,9 +5,10 @@ function Nav() {
   return (
     <div className="nav-cont">
       <nav>
-        <h3 className="logo">
+        <div className="logo">
+          <img src="/Images/slogo.png" alt="" />
           <a href="/">SpotFile</a>
-        </h3>
+        </div>
         <ul>
           <li>
             <a href="/">Home</a>
