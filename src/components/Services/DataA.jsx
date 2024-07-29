@@ -1,7 +1,9 @@
 import React from "react";
 import "./DataA.css";
-import { FaClipboardList, FaUsersCog } from "react-icons/fa";
+import { FaArchive } from "react-icons/fa";
 import { BsCollectionFill } from "react-icons/bs";
+import { MdOutlineSecurity } from "react-icons/md";
+import { RiFileDamageFill } from "react-icons/ri";
 
 function DataA() {
   return (
@@ -117,7 +119,7 @@ function DataA() {
           </p>
           <span style={{ marginTop: "130px" }}>
             <i>
-              <FaClipboardList />
+              <MdOutlineSecurity />
             </i>
           </span>
         </div>
@@ -125,7 +127,7 @@ function DataA() {
       <div className="r">
         <span style={{ marginTop: "100px" }}>
           <i>
-            <FaUsersCog />
+            <FaArchive />
           </i>
         </span>
         <div className="rr">
@@ -169,7 +171,7 @@ function DataA() {
           </p>
           <span style={{ marginTop: "100px" }}>
             <i>
-              <FaClipboardList />
+              <RiFileDamageFill />
             </i>
           </span>
         </div>
