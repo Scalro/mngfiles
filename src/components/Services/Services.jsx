@@ -65,7 +65,7 @@ function Card1() {
 
 function Card3() {
   return (
-    <a href="/farchiving">
+    <a href="/earchirve">
       <div className="card">
         <div className="button">
           <FaServer />
@@ -101,7 +101,7 @@ function Card5() {
 
 function Card2() {
   return (
-    <a href="/earchiving">
+    <a href="/dataA">
       <div className="card">
         <div className="button">
           <FaArchive />
