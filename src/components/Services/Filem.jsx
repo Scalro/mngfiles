@@ -68,6 +68,50 @@ function Filem() {
           </p>
         </div>
       </div>
+      <div className="tt">
+        <div className="t">
+          <p>
+            <h3>Records Management and Archivist Training</h3>
+            <p>
+              SpotFile Records Management can provide training in the use of EAS
+              software, our online records management solution, or in the use of
+              scanner software. Document management and archivist training is
+              provided in small groups to facilitate learning and is provided by
+              experts in records management
+            </p>
+          </p>
+          <span>
+            <i>
+              <FaClipboardList />
+            </i>
+          </span>
+        </div>
+      </div>
+      <div className="r">
+        <span>
+          <i>
+            <FaClipboardList />
+          </i>
+        </span>
+        <div className="rr">
+          <p>
+            <h3>Provision of archivist</h3>
+            <p>
+              Managing and storing records is a complete process that requires
+              various skills, including providing advice on the organisation of
+              records and indexing. This is why we propose to provide you with a
+              qualified and experienced team of archivists, well-versed in
+              handling public and private documents. They come to your site and
+              guide you through the process of organising your documents.
+            </p>
+          </p>
+        </div>
+      </div>
+      <div style={{ textAlign: "center", margin: "20px " }}>
+        <button>
+          <a href="/contact">Contact Us</a>
+        </button>
+      </div>
     </div>
   );
 }
