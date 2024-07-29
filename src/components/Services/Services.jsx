@@ -65,7 +65,7 @@ function Card1() {
 
 function Card3() {
   return (
-    <a href="/earchirve">
+    <a href="/cloud">
       <div className="card">
         <div className="button">
           <FaServer />

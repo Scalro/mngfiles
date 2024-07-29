@@ -54,7 +54,7 @@ function Filem() {
         </span>
         <div className="rr">
           <p>
-            <h3>Reords Auditing</h3>
+            <h3>Records Auditing</h3>
             <p>
               The audit ensures a state-of-the-art records management process is
               developed for all your departments. It finds solutions to any
