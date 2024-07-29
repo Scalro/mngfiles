@@ -153,11 +153,9 @@ function DataA() {
         <div className="t">
           <p>
             <h3>Confidential Records Destruction</h3>
-            <p>
-              The destruction of the records concerns documents whose legal
-              period of preservation has expired or confidential records that
-              need to be shredded.
-            </p>
+            The destruction of the records concerns documents whose legal period
+            of preservation has expired or confidential records that need to be
+            shredded.
             <h4>Different solutions proposed:</h4>
             <ul>
               <li>Recycling</li>
