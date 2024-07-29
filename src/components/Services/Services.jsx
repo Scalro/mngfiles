@@ -77,7 +77,7 @@ function Card3() {
 
 function Card4() {
   return (
-    <a href="/scanning">
+    <a href="/content">
       <div className="card">
         <div className="button">
           <MdScanner />
