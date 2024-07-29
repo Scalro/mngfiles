@@ -3,7 +3,7 @@ import "./DataA.css";
 import { FaArchive } from "react-icons/fa";
 import { BsCollectionFill } from "react-icons/bs";
 import { MdOutlineSecurity } from "react-icons/md";
-import { RiFileDamageFill } from "react-icons/ri";
+import { GrDocumentLocked } from "react-icons/gr";
 
 function DataA() {
   return (
@@ -171,7 +171,7 @@ function DataA() {
           </p>
           <span style={{ marginTop: "100px" }}>
             <i>
-              <RiFileDamageFill />
+              <GrDocumentLocked />
             </i>
           </span>
         </div>
