@@ -1,10 +1,10 @@
 .nav-cont {
   height: fit-content;
-  position: sticky;
   top: 0;
   z-index: 100;
   background-color: #ececec;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -15,10 +15,13 @@ nav {
 
 nav ul {
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 nav ul li {
   list-style-type: none;
+  position: relative;
 }
 
 nav ul li a {
@@ -28,6 +31,7 @@ nav ul li a {
   text-decoration: none;
   color: #0084c2;
 }
+
 nav ul li a:hover {
   background-color: rgb(196, 195, 195);
 }
@@ -39,6 +43,7 @@ nav ul li a:hover {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #2903ff;
 }
+
 .logo img {
   width: 300px;
   height: 70px;
@@ -54,6 +59,7 @@ nav ul li a:hover {
   display: flex;
   text-align: center;
 }
+
 .cnt h5 {
   padding: 0.5rem;
   color: #414141;
@@ -70,4 +76,46 @@ button {
 button a {
   text-decoration: none;
   color: #fff;
+}
+
+/* Dropdown styling */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-top: 0.5rem;
+  padding: 0.5rem 0;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown-section {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  font-weight: bold;
+  background-color: #eee;
+}
+
+.dropdown-section:last-child {
+  border-bottom: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }

@@ -7,7 +7,7 @@ function Nav() {
       <nav>
         <div className="logo">
           <a href="/">
-            <img src="/Images/slogo.png" alt="" />
+            <img src="/Images/slogo.png" alt="Logo" />
           </a>
         </div>
         <ul>
@@ -23,8 +23,19 @@ function Nav() {
           <li>
             <a href="/investors">Partners</a>
           </li>
-          <li>
-            <a href="/governance">Governance</a>
+          <li className="dropdown">
+            <a href="#!">
+              Governance <i className="fas fa-caret-down"></i>
+            </a>
+            <div className="dropdown-content">
+              <div className="dropdown-section">
+                DATA PROTECTION ACT KENYA, 2019
+              </div>
+              <a href="#!">Enquiry</a>
+              <a href="#!">Policy</a>
+              <div className="dropdown-section">PRIVACY</div>
+              <a href="#!">Privacy Policy</a>
+            </div>
           </li>
         </ul>
         <button>
