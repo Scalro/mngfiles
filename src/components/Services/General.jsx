@@ -22,7 +22,7 @@ function General() {
             <i>"Don't let your precious items become irreparably dammaged"</i>
           </h3>
           <div className="trrr">
-            <img src="/Images/04.jpeg" alt="" />
+            <img src="/Images/heritage.png" alt="" />
             <p>
               <p>
                 SpotFile Records Management is used to handling art and heritage
