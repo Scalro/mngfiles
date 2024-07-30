@@ -6,8 +6,9 @@ function Nav() {
     <div className="nav-cont">
       <nav>
         <div className="logo">
-          <img src="/Images/slogo.png" alt="" />
-          <a href="/">SpotFile</a>
+          <a href="/">
+            <img src="/Images/slogo.png" alt="" />
+          </a>
         </div>
         <ul>
           <li>

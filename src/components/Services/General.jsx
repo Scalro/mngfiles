@@ -19,7 +19,7 @@ function General() {
           </p>
 
           <h3>
-            <i>"Don't let your precious items become irreparably dammaged"</i>
+            <i>"Don't let your precious items become irreparably damaged"</i>
           </h3>
           <div className="trrr">
             <img src="/Images/heritage.png" alt="" />

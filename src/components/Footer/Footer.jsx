@@ -11,7 +11,9 @@ function Footer() {
   return (
     <div className="main">
       <div className="foot">
-        <h3 className="log">SpotFile</h3>
+        <h3 className="log">
+          <img src="/Images/slogo.png" alt="" />
+        </h3>
         <span className="tact">
           <h5>
             <MdLocalPhone /> +254720964498
