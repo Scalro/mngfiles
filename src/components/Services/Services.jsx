@@ -89,7 +89,7 @@ function Card4() {
 
 function Card5() {
   return (
-    <a href="/heritage">
+    <a href="/general">
       <div className="card">
         <div className="button">
           <FaFeatherAlt />

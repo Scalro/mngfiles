@@ -28,6 +28,7 @@ function App() {
           <Route path="/dataA" element={<DataA />} />
           <Route path="/services" element={<Services />} />
           <Route path="/about" element={<About />} />
+          <Route path="/general" element={<General />} />
         </Routes>
       </BrowserRouter>
       <Footer />
