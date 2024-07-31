@@ -20,9 +20,6 @@ function Nav() {
           <li>
             <a href="/services">Our Services</a>
           </li>
-          <li>
-            <a href="/investors">Partners</a>
-          </li>
           <li className="dropdown">
             <a href="#!">
               Governance <i className="fas fa-caret-down"></i>
