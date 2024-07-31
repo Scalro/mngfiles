@@ -45,7 +45,7 @@ function Governance() {
             resilience. By adhering to stringent privacy regulations, we are
             committed to maintaining the confidentiality and trust of our
             clients at all times.{" "}
-            <a href="/Images/" download="Privacy Policy">
+            <a href="/Images/privacy_policy.pdf" download="Privacy Policy">
               <i>Read More...</i>
             </a>
           </p>
