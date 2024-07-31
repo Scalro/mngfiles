@@ -1,7 +1,11 @@
 import React from "react";
 
-function Enquiry() {
-  return <div></div>;
+function Governance() {
+  return (
+    <div>
+      <h1>Governance</h1>
+    </div>
+  );
 }
 
-export default Enquiry;
+export default Governance;

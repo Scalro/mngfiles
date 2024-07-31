@@ -20,21 +20,8 @@ function Nav() {
           <li>
             <a href="/services">Our Services</a>
           </li>
-          <li className="dropdown">
-            <a href="#!">
-              Governance <i className="fas fa-caret-down"></i>
-            </a>
-            <div className="dropdown-content">
-              <div className="dropdown-section">
-                DATA PROTECTION ACT KENYA, 2019
-              </div>
-              <a href="#!">Enquiry</a>
-              <a href="/Images/policy.pdf" download="Policy">
-                Policy
-              </a>
-              <div className="dropdown-section">PRIVACY</div>
-              <a href="#!">Privacy Policy</a>
-            </div>
+          <li>
+            <a href="/governance">Governance</a>
           </li>
         </ul>
         <button>
