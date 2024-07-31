@@ -24,7 +24,10 @@ function Governance() {
             recovery options in the event of a disaster, ensuring continuity and
             reliability. We are committed to maintaining confidentiality and
             complying with all relevant data protection regulations.{" "}
-            <a href="/Images/policy.pdf" download="Policy">
+            <a
+              href="/Images/policy.pdf"
+              download="Data Protection Policy by  SportFile Records Management Solutions"
+            >
               <i>Read More...</i>
             </a>
           </p>
@@ -45,7 +48,10 @@ function Governance() {
             resilience. By adhering to stringent privacy regulations, we are
             committed to maintaining the confidentiality and trust of our
             clients at all times.{" "}
-            <a href="/Images/privacy_policy.pdf" download="Privacy Policy">
+            <a
+              href="/Images/privacy_policy.pdf"
+              download="Privacy Policy Statement by SportFile Records Management Solutions"
+            >
               <i>Read More...</i>
             </a>
           </p>
