@@ -29,7 +29,9 @@ function Nav() {
                 DATA PROTECTION ACT KENYA, 2019
               </div>
               <a href="#!">Enquiry</a>
-              <a href="#!">Policy</a>
+              <a href="/Images/policy.pdf" download="Policy">
+                Policy
+              </a>
               <div className="dropdown-section">PRIVACY</div>
               <a href="#!">Privacy Policy</a>
             </div>
