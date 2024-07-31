@@ -4,6 +4,7 @@ import emailjs from "@emailjs/browser";
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import { MdWhatsapp } from "react-icons/md";
 import { BsTwitterX } from "react-icons/bs";
+import { FaInstagram, FaYoutube } from "react-icons/fa6";
 
 function Contact() {
   return (
@@ -73,6 +74,16 @@ function AltContact() {
         <h1>
           <a href="http://" target="_blank" rel="noopener noreferrer">
             <BsTwitterX />
+          </a>
+        </h1>
+        <h1>
+          <a href="http://" target="_blank" rel="noopener noreferrer">
+            <FaYoutube />
+          </a>
+        </h1>
+        <h1>
+          <a href="http://" target="_blank" rel="noopener noreferrer">
+            <FaInstagram />
           </a>
         </h1>
       </div>

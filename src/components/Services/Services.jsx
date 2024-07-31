@@ -65,7 +65,7 @@ function Card1() {
 
 function Card3() {
   return (
-    <a href="/cloud">
+    <a href="/earchive">
       <div className="card">
         <div className="button">
           <FaServer />
@@ -77,7 +77,7 @@ function Card3() {
 
 function Card4() {
   return (
-    <a href="/content">
+    <a href="/dimaging">
       <div className="card">
         <div className="button">
           <MdScanner />
@@ -89,7 +89,7 @@ function Card4() {
 
 function Card5() {
   return (
-    <a href="/general">
+    <a href="/heritage">
       <div className="card">
         <div className="button">
           <FaFeatherAlt />
@@ -101,7 +101,7 @@ function Card5() {
 
 function Card2() {
   return (
-    <a href="/dataA">
+    <a href="/parchive">
       <div className="card">
         <div className="button">
           <FaArchive />

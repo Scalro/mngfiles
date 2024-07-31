@@ -22,14 +22,14 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/filem" element={<Filem />} />
-          <Route path="/cloud" element={<Cloud />} />
-          <Route path="/content" element={<Content />} />
+          <Route path="/earchive" element={<Cloud />} />
+          <Route path="/dimaging" element={<Content />} />
           <Route path="/governance" element={<Governance />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/dataA" element={<DataA />} />
+          <Route path="/parchive" element={<DataA />} />
           <Route path="/services" element={<Services />} />
           <Route path="/about" element={<About />} />
-          <Route path="/general" element={<General />} />
+          <Route path="/heritage" element={<General />} />
         </Routes>
       </BrowserRouter>
       <Footer />
