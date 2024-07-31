@@ -12,6 +12,7 @@ import Contact from "./components/Pages/Contact.jsx";
 import DataA from "./components/Services/DataA.jsx";
 import Services from "./components/Services/Services.jsx";
 import About from "./components/Pages/About.jsx";
+import Governance from "./components/Pages/Governance.jsx";
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
           <Route path="/filem" element={<Filem />} />
           <Route path="/cloud" element={<Cloud />} />
           <Route path="/content" element={<Content />} />
-          <Route path="/advisory" element={<General />} />
+          <Route path="/governance" element={<Governance />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/dataA" element={<DataA />} />
           <Route path="/services" element={<Services />} />
