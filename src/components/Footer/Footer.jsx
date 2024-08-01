@@ -20,7 +20,7 @@ function Footer() {
         </div>
         <div className="tact">
           <br />
-          <strong>Our Services</strong>
+          <strong style={{ marginLeft: "25px" }}>Our Services</strong>
           <ul>
             <li>
               <a href="/filem">Auditing andTrainig</a>

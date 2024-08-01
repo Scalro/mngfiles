@@ -26,7 +26,7 @@ function Services() {
         </div>
         <div className="cls">
           <Card3 />
-          <h4>Electronic Archiving</h4>
+          <h4>Digital Archiving</h4>
         </div>
         <div className="cls">
           <Card4 />

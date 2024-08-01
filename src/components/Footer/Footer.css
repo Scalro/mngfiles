@@ -15,11 +15,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  text-align: center;
+  text-align: justify;
 }
 
 .tact ul {
-  list-style-type: none;
+  list-style-type: disc;
 }
 .tact a {
   text-decoration: none;
