@@ -4,7 +4,7 @@ import { FaClipboardList, FaUsersCog } from "react-icons/fa";
 import { TbBulb } from "react-icons/tb";
 function Filem() {
   return (
-    <div>
+    <div className="all">
       <div className="imag"></div>
       <div className="tr">
         <div className="trr">

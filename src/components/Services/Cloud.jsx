@@ -1,5 +1,4 @@
 import React from "react";
-import "./Cloud.css";
 import { GrVirtualMachine } from "react-icons/gr";
 import { GoRepoLocked } from "react-icons/go";
 function Cloud() {

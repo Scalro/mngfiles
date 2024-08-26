@@ -1,5 +1,4 @@
 import React from "react";
-import "./General.css";
 import { FaShareSquare } from "react-icons/fa";
 import { FaFileCircleCheck } from "react-icons/fa6";
 import { LuMonitorCheck } from "react-icons/lu";

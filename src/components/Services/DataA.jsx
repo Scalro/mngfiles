@@ -1,5 +1,4 @@
 import React from "react";
-import "./DataA.css";
 import { FaArchive } from "react-icons/fa";
 import { BsCollectionFill } from "react-icons/bs";
 import { MdOutlineSecurity } from "react-icons/md";
