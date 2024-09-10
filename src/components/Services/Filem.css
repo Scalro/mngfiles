@@ -43,7 +43,7 @@
 }
 
 .r span {
-  width: 500px;
+  width: 700px;
   height: 200px;
   clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
   margin: 50px 150px 0 0;
@@ -75,10 +75,10 @@
 }
 
 .t span {
-  min-width: 500px;
+  min-width: 700px;
   height: 200px;
   /* margin-top: 30px; */
-  margin: auto;
+  margin: 0;
   clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
   text-align: center;
   align-items: center;
